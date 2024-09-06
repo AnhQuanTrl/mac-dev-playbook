@@ -1,0 +1,7 @@
+---
+- name: Configure host.
+  hosts: all
+  
+  vars_files:
+    - config.yml
+
