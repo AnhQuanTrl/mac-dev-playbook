@@ -1,0 +1,11 @@
+homebrew_cask_apps:
+  - firefox
+  - alacritty
+  - font-jetbrains-mono-nerd-font
+
+homebrew_installed_packages:
+  - chezmoi
+  - ripgrep
+  - go
+
+neovim_version: nightly

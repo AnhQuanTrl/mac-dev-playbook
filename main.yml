@@ -1,7 +1,10 @@
 ---
 - name: Configure host.
-  hosts: all
-  
+  hosts: remote
+
   vars_files:
     - config.yml
 
+  roles:
+    - role: anhquantrl.mac.homebrew
+    - role: anhquantrl.mac.neovim
