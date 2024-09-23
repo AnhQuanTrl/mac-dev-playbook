@@ -1,11 +1,41 @@
 homebrew_cask_apps:
   - firefox
   - alacritty
+  - docker
   - font-jetbrains-mono-nerd-font
+  - dotnet-sdk8
+  - dotnet-sdk6
+  - nikitabobko/tap/aerospace
+  - insomnia
+  - hyperkey
+  - raycast
+  - dbeaver-community
+
+homebrew_taps:
+  - isen-ng/dotnet-sdk-versions
+  - authzed/tap
+  - hashicorp/tap
 
 homebrew_installed_packages:
-  - chezmoi
   - ripgrep
   - go
+  - zellij
+  - postgresql@16
+  - bitwarden-cli
+  - direnv
+  - pre-commit
+  - authzed/tap/spicedb
+  - authzed/tap/zed
+  - hashicorp/tap/terraform
+  - terraform-docs
 
-neovim_version: nightly
+neovim_version: v0.10.1
+
+chezmoi_repo: AnhQuanTrl
+
+asdf_plugins:
+  - name: nodejs
+    repository: https://github.com/asdf-vm/asdf-nodejs.git
+    versions:
+      - "20.17.0"
+    global: "20.17.0"

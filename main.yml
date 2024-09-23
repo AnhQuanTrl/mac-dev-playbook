@@ -1,10 +1,21 @@
 ---
 - name: Configure host.
-  hosts: remote
+  hosts: all
 
   vars_files:
     - config.yml
+    - vault.yml
 
   roles:
     - role: anhquantrl.mac.homebrew
+      tags: ["homebrew"]
+    - role: anhquantrl.dotfiles.chezmoi
+      tags: ["dotfiles"]
+    - role: anhquantrl.dotfiles.asdf
+      tags: ["asdf"]
     - role: anhquantrl.mac.neovim
+      tags: ["neovim"]
+
+  tasks:
+    - import_tasks: tasks/osx.yml
+      tags: ["osx"]
