@@ -19,3 +19,6 @@
   tasks:
     - import_tasks: tasks/osx.yml
       tags: ["osx"]
+
+    - import_tasks: tasks/pipx.yml
+      tags: ["pipx"]

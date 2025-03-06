@@ -8,12 +8,12 @@
     value: true
     state: present
 
-- name: Displays have separate Spaces (false).
+- name: Displays have separate Spaces (true).
   osx_defaults:
     domain: com.apple.spaces
     key: spans-displays
     type: bool
-    value: true
+    value: false
     state: present
 
 - name: Autohides the Dock.

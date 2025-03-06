@@ -10,11 +10,25 @@ homebrew_cask_apps:
   - hyperkey
   - raycast
   - dbeaver-community
+  - zen-browser
+  - obsidian
+  - bitwarden
+  - protonvpn
+  - reader
+  - google-chrome
+  - chatgpt
+  - nosql-workbench
+  - jordanbaird-ice
+  - lulu
+  - cloudflare-warp
+  - postman
 
 homebrew_taps:
   - isen-ng/dotnet-sdk-versions
   - authzed/tap
   - hashicorp/tap
+  - kreuzwerker/taps
+  - homebrew/command-not-found
 
 homebrew_installed_packages:
   - ripgrep
@@ -27,7 +41,21 @@ homebrew_installed_packages:
   - authzed/tap/spicedb
   - authzed/tap/zed
   - hashicorp/tap/terraform
+  - hashicorp/tap/packer
+  - kreuzwerker/taps/m1-terraform-provider-helper
   - terraform-docs
+  - k9s
+  - awscli
+  - pipx
+  - iperf3
+  - redis
+  - protobuf
+  - tmux
+  - kind
+  - fzf
+  - git-delta
+  - fastfetch
+  - navi
 
 neovim_version: v0.10.1
 

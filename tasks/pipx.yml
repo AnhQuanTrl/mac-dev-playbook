@@ -1,0 +1,12 @@
+- name: Install multiple packages from list
+  vars:
+    pipx_packages:
+      - poetry
+      - poethepoet
+      - basedpyright
+      - tldr
+  community.general.pipx:
+    name: "{{ item }}"
+    state: latest
+    executable: /opt/homebrew/bin/pipx
+  with_items: "{{ pipx_packages }}"
