@@ -5,7 +5,6 @@ homebrew_cask_apps:
   - font-jetbrains-mono-nerd-font
   - dotnet-sdk8
   - dotnet-sdk6
-  - nikitabobko/tap/aerospace
   - insomnia
   - hyperkey
   - raycast
@@ -22,6 +21,9 @@ homebrew_cask_apps:
   - lulu
   - cloudflare-warp
   - postman
+  - logi-options+
+  - slack
+  - visual-studio-code
 
 homebrew_taps:
   - isen-ng/dotnet-sdk-versions
@@ -56,6 +58,8 @@ homebrew_installed_packages:
   - git-delta
   - fastfetch
   - navi
+  - terminal-notifier
+  - lazygit
 
 neovim_version: v0.10.1
 

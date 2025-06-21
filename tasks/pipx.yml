@@ -5,6 +5,7 @@
       - poethepoet
       - basedpyright
       - tldr
+      - "huggingface_hub[cli]"
   community.general.pipx:
     name: "{{ item }}"
     state: latest
